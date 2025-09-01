@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { motion } from "framer-motion"
 import { Heart, Users, BookOpen, Target, Award, Globe } from "lucide-react"
 
@@ -140,8 +141,8 @@ export default function AboutPage() {
               <Award className="w-16 h-16 text-green-500 mx-auto mb-6" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Excellence</h3>
               <p className="text-gray-600 leading-relaxed">
-                We're committed to providing the highest quality advice, thoroughly researched 
-                and presented in a way that's both accessible and actionable.
+                We&apos;re committed to providing the highest quality advice, thoroughly researched 
+                and presented in a way that&apos;s both accessible and actionable.
               </p>
             </motion.div>
           </div>
@@ -173,8 +174,8 @@ export default function AboutPage() {
                 live better, more fulfilling lives.
               </p>
               <p className="text-xl leading-relaxed">
-                Today, we're proud to be a trusted source of life-changing advice for thousands 
-                of people around the world, and we're just getting started.
+                Today, we&apos;re proud to be a trusted source of life-changing advice for thousands 
+                of people around the world, and we&apos;re just getting started.
               </p>
             </div>
           </motion.div>
@@ -198,18 +199,18 @@ export default function AboutPage() {
               authentic living, and making a positive impact in the world.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a
+              <Link
                 href="/#wisdom"
                 className="px-8 py-4 bg-white text-blue-600 rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 font-semibold text-lg"
               >
                 Explore Our Wisdom
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/donate"
                 className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-full hover:bg-white hover:text-blue-600 transition-all duration-300 font-semibold text-lg"
               >
                 Support Our Mission
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>
