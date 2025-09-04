@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfless Advice - Life-Changing Wisdom for a Happier Life</title>
+    <meta name="description" content="Discover valuable insights for life, wisdom on how to live happily, understand life's true purpose, and find genuine advice that can transform your existence.">
+    <meta name="keywords" content="life advice, wisdom, happiness, self-improvement, meaning of life, personal growth">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Selfless Advice - Life-Changing Wisdom">
+    <meta property="og:description" content="Transform your life with genuine wisdom and advice for true happiness">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Selfless Advice - Life-Changing Wisdom">
+    <meta name="twitter:description" content="Transform your life with genuine wisdom and advice for true happiness">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i data-lucide="heart"></i>
+                    </div>
+                    <span class="logo-text">Selfless Advice</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#donate" class="nav-link">Donate</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="mobile-menu-btn">
+                    <i data-lucide="menu" id="menu-icon"></i>
+                    <i data-lucide="x" id="close-icon" style="display: none;"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="mobile-menu-content">
+                <a href="#" class="mobile-nav-link">
+                    <i data-lucide="book-open"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="mobile-nav-link">
+                    <i data-lucide="heart"></i>
+                    <span>About</span>
+                </a>
+                <a href="#donate" class="mobile-nav-link">
+                    <i data-lucide="heart"></i>
+                    <span>Donate</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <!-- Background -->
+            <div class="hero-background">
+                <div class="hero-pattern"></div>
+            </div>
+
+            <!-- Floating Elements -->
+            <div class="floating-elements">
+                <div class="floating-element floating-1"></div>
+                <div class="floating-element floating-2"></div>
+                <div class="floating-element floating-3"></div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i data-lucide="sparkles"></i>
+                    Transforming lives through authentic wisdom
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="hero-title-gradient">Selfless</span>
+                    <br>
+                    <span class="hero-title-dark">Advice</span>
+                </h1>
+
+                <p class="hero-description">
+                    Discover profound insights for living your happiest life. Find the true meaning of existence,
+                    understand your purpose, and embrace genuine wisdom that transforms hearts and minds.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#wisdom" class="btn btn-primary">
+                        <i data-lucide="book-open"></i>
+                        Explore Wisdom
+                    </a>
+                    <a href="#donate" class="btn btn-secondary">
+                        <i data-lucide="heart"></i>
+                        Support Our Mission
+                    </a>
+                </div>
+
+                <!-- Stats -->
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Lives Transformed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Wisdom Articles</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Access to Guidance</div>
+                    </div>
+                </div>
+
+                <!-- Scroll Indicator -->
+                <div class="scroll-indicator">
+                    <i data-lucide="arrow-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles Section -->
+        <section id="wisdom" class="articles-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Life-Changing Wisdom</h2>
+                    <p class="section-description">
+                        Discover profound insights and practical advice to transform your life, 
+                        find true happiness, and understand your purpose.
+                    </p>
+                </div>
+
+                <!-- Filter Tabs -->
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">All Articles</button>
+                    <button class="filter-tab" data-filter="happiness">Happiness</button>
+                    <button class="filter-tab" data-filter="purpose">Purpose</button>
+                    <button class="filter-tab" data-filter="wisdom">Wisdom</button>
+                    <button class="filter-tab" data-filter="growth">Growth</button>
+                </div>
+
+                <!-- Articles Grid -->
+                <div class="articles-grid" id="articles-grid">
+                    <!-- Articles will be loaded here by JavaScript -->
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-container">
+                    <button id="load-more-btn" class="btn btn-outline">Load More Articles</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="about-title">Our Mission</h2>
+                        <p class="about-description">
+                            At Selfless Advice, we believe that true wisdom should be accessible to everyone. 
+                            Our mission is to share life-changing insights that help people find genuine happiness, 
+                            understand their purpose, and live more fulfilling lives.
+                        </p>
+                        <p class="about-description">
+                            Every piece of advice we share comes from a place of genuine care and understanding. 
+                            We're not here to sell you anything - we're here to help you discover the profound 
+                            truths that can transform your existence.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <div class="about-placeholder">
+                            <i data-lucide="heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Donation Section -->
+        <section id="donate" class="donate-section">
+            <div class="container">
+                <div class="donate-content">
+                    <h2 class="donate-title">Support Our Mission</h2>
+                    <p class="donate-description">
+                        Help us continue sharing life-changing wisdom with the world. 
+                        Your support enables us to reach more people and create more content.
+                    </p>
+                    
+                    <div class="donation-amounts">
+                        <button class="donation-btn" data-amount="10">$10</button>
+                        <button class="donation-btn" data-amount="25">$25</button>
+                        <button class="donation-btn active" data-amount="50">$50</button>
+                        <button class="donation-btn" data-amount="100">$100</button>
+                        <button class="donation-btn" data-amount="custom">Custom</button>
+                    </div>
+
+                    <div class="custom-amount" id="custom-amount" style="display: none;">
+                        <input type="number" id="custom-amount-input" placeholder="Enter amount" min="1">
+                    </div>
+
+                    <button class="btn btn-primary btn-large" id="donate-btn">
+                        <i data-lucide="heart"></i>
+                        Donate Now
+                    </button>
+
+                    <p class="donate-note">
+                        Your donation helps us maintain this platform and create more valuable content.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i data-lucide="heart"></i>
+                        </div>
+                        <span class="logo-text">Selfless Advice</span>
+                    </div>
+                    <p class="footer-description">
+                        Transforming lives through authentic wisdom and genuine advice.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#wisdom">Articles</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:hello@selflessadvice.com">hello@selflessadvice.com</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Selfless Advice. Made with ❤️ for humanity's growth and happiness.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
