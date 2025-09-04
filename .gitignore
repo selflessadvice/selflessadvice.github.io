@@ -16,6 +16,13 @@
 # next.js
 /.next/
 /out/
+/.bmad-core/
+/.cursor/
+/.github/
+/.vscode/
+
+# production
+/build
 
 # misc
 .DS_Store
